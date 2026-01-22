@@ -1,5 +1,5 @@
 *{
-    margin:0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,11 +10,32 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+    gap: 20px;
+}
+.navbar li{
+    list-style: none;
 }
 .nav-links{
     display: flex;
-    
+}
+.navbar a{
+    text-decoration: none;
 }
 .nav-links li{
     margin-left: 20px;
+}
+.text{
+    margin: 39px;
+    color: black;
+    font-weight: bold;
+    
+}
+.mycart{
+   font-size: 22px;
+  font-weight: 700;
+  color: #222;
+  margin: 35px;
+}
+.box{
+    border: ;
 }
