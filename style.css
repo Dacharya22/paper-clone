@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,36 +6,46 @@
 
 .navbar {
     display: flex;
-    background-color: rgb(123, 131, 203);
+    background-color: rgb(22, 25, 54);
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     gap: 20px;
 }
-.navbar li{
+
+.icon {
+    color: white;
+}
+
+.navbar li {
     list-style: none;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
+
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
+    color: white;
 }
-.nav-links li{
+
+.nav-links li {
     margin-left: 20px;
 }
-.text{
+
+.text {
     margin: 39px;
     color: black;
     font-weight: bold;
-    
+
 }
-.mycart{
-   font-size: 22px;
-  font-weight: 700;
-  color: #222;
-  margin: 35px;
+
+.mycart {
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+    margin: 35px;
 }
-.box{
-    border: ;
-}
+
