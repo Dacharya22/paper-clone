@@ -49,3 +49,36 @@
     margin: 35px;
 }
 
+.box{
+    border: 3px solid #515358;
+    padding: 50px;
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-right: 500px;
+    margin-left: 20px;
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.bottom{
+    border: 1px solid #060505;
+    display: flex;
+  justify-content: space-between;
+  background-color: #e7e0e0;
+}
+
+.bottom-2{
+    border: 1px solid #060505;
+        display: flex;
+  justify-content: space-between;
+  background-color: #e7e0e0;
+}
+
